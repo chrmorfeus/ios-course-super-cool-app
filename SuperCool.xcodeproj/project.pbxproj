@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AACBE8441C323D8D00EE2AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACBE8431C323D8D00EE2AA4 /* AppDelegate.swift */; };
+		AACBE8461C323D8D00EE2AA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACBE8451C323D8D00EE2AA4 /* ViewController.swift */; };
+		AACBE8491C323D8D00EE2AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACBE8471C323D8D00EE2AA4 /* Main.storyboard */; };
+		AACBE84B1C323D8D00EE2AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACBE84A1C323D8D00EE2AA4 /* Assets.xcassets */; };
+		AACBE84E1C323D8D00EE2AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACBE84C1C323D8D00EE2AA4 /* LaunchScreen.storyboard */; };
+		AACBE8591C323D8D00EE2AA4 /* firstHomeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACBE8581C323D8D00EE2AA4 /* firstHomeWorkTests.swift */; };
+		AACBE8641C323D8D00EE2AA4 /* firstHomeWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACBE8631C323D8D00EE2AA4 /* firstHomeWorkUITests.swift */; };
 		AADC318F1C2DDC7F00B872A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADC318E1C2DDC7F00B872A2 /* AppDelegate.swift */; };
 		AADC31911C2DDC7F00B872A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADC31901C2DDC7F00B872A2 /* ViewController.swift */; };
 		AADC31941C2DDC7F00B872A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADC31921C2DDC7F00B872A2 /* Main.storyboard */; };
@@ -17,6 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AACBE8551C323D8D00EE2AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AADC31831C2DDC7F00B872A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACBE8401C323D8D00EE2AA4;
+			remoteInfo = firstHomeWork;
+		};
+		AACBE8601C323D8D00EE2AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AADC31831C2DDC7F00B872A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACBE8401C323D8D00EE2AA4;
+			remoteInfo = firstHomeWork;
+		};
 		AADC31A01C2DDC7F00B872A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AADC31831C2DDC7F00B872A2 /* Project object */;
@@ -34,6 +55,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AACBE8411C323D8D00EE2AA4 /* firstHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACBE8431C323D8D00EE2AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AACBE8451C323D8D00EE2AA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AACBE8481C323D8D00EE2AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AACBE84A1C323D8D00EE2AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AACBE84D1C323D8D00EE2AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AACBE84F1C323D8D00EE2AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACBE8541C323D8D00EE2AA4 /* firstHomeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstHomeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACBE8581C323D8D00EE2AA4 /* firstHomeWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstHomeWorkTests.swift; sourceTree = "<group>"; };
+		AACBE85A1C323D8D00EE2AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACBE85F1C323D8D00EE2AA4 /* firstHomeWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstHomeWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACBE8631C323D8D00EE2AA4 /* firstHomeWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstHomeWorkUITests.swift; sourceTree = "<group>"; };
+		AACBE8651C323D8D00EE2AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AADC318B1C2DDC7F00B872A2 /* SuperCool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADC318E1C2DDC7F00B872A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AADC31901C2DDC7F00B872A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +84,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AACBE83E1C323D8D00EE2AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE8511C323D8D00EE2AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE85C1C323D8D00EE2AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AADC31881C2DDC7F00B872A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,12 +129,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AACBE8421C323D8D00EE2AA4 /* firstHomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				AACBE8431C323D8D00EE2AA4 /* AppDelegate.swift */,
+				AACBE8451C323D8D00EE2AA4 /* ViewController.swift */,
+				AACBE8471C323D8D00EE2AA4 /* Main.storyboard */,
+				AACBE84A1C323D8D00EE2AA4 /* Assets.xcassets */,
+				AACBE84C1C323D8D00EE2AA4 /* LaunchScreen.storyboard */,
+				AACBE84F1C323D8D00EE2AA4 /* Info.plist */,
+			);
+			path = firstHomeWork;
+			sourceTree = "<group>";
+		};
+		AACBE8571C323D8D00EE2AA4 /* firstHomeWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				AACBE8581C323D8D00EE2AA4 /* firstHomeWorkTests.swift */,
+				AACBE85A1C323D8D00EE2AA4 /* Info.plist */,
+			);
+			path = firstHomeWorkTests;
+			sourceTree = "<group>";
+		};
+		AACBE8621C323D8D00EE2AA4 /* firstHomeWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AACBE8631C323D8D00EE2AA4 /* firstHomeWorkUITests.swift */,
+				AACBE8651C323D8D00EE2AA4 /* Info.plist */,
+			);
+			path = firstHomeWorkUITests;
+			sourceTree = "<group>";
+		};
 		AADC31821C2DDC7F00B872A2 = {
 			isa = PBXGroup;
 			children = (
 				AADC318D1C2DDC7F00B872A2 /* SuperCool */,
 				AADC31A21C2DDC7F00B872A2 /* SuperCoolTests */,
 				AADC31AD1C2DDC7F00B872A2 /* SuperCoolUITests */,
+				AACBE8421C323D8D00EE2AA4 /* firstHomeWork */,
+				AACBE8571C323D8D00EE2AA4 /* firstHomeWorkTests */,
+				AACBE8621C323D8D00EE2AA4 /* firstHomeWorkUITests */,
 				AADC318C1C2DDC7F00B872A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +179,9 @@
 				AADC318B1C2DDC7F00B872A2 /* SuperCool.app */,
 				AADC319F1C2DDC7F00B872A2 /* SuperCoolTests.xctest */,
 				AADC31AA1C2DDC7F00B872A2 /* SuperCoolUITests.xctest */,
+				AACBE8411C323D8D00EE2AA4 /* firstHomeWork.app */,
+				AACBE8541C323D8D00EE2AA4 /* firstHomeWorkTests.xctest */,
+				AACBE85F1C323D8D00EE2AA4 /* firstHomeWorkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +220,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AACBE8401C323D8D00EE2AA4 /* firstHomeWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACBE86C1C323D8D00EE2AA4 /* Build configuration list for PBXNativeTarget "firstHomeWork" */;
+			buildPhases = (
+				AACBE83D1C323D8D00EE2AA4 /* Sources */,
+				AACBE83E1C323D8D00EE2AA4 /* Frameworks */,
+				AACBE83F1C323D8D00EE2AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firstHomeWork;
+			productName = firstHomeWork;
+			productReference = AACBE8411C323D8D00EE2AA4 /* firstHomeWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AACBE8531C323D8D00EE2AA4 /* firstHomeWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACBE86D1C323D8D00EE2AA4 /* Build configuration list for PBXNativeTarget "firstHomeWorkTests" */;
+			buildPhases = (
+				AACBE8501C323D8D00EE2AA4 /* Sources */,
+				AACBE8511C323D8D00EE2AA4 /* Frameworks */,
+				AACBE8521C323D8D00EE2AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AACBE8561C323D8D00EE2AA4 /* PBXTargetDependency */,
+			);
+			name = firstHomeWorkTests;
+			productName = firstHomeWorkTests;
+			productReference = AACBE8541C323D8D00EE2AA4 /* firstHomeWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AACBE85E1C323D8D00EE2AA4 /* firstHomeWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACBE86E1C323D8D00EE2AA4 /* Build configuration list for PBXNativeTarget "firstHomeWorkUITests" */;
+			buildPhases = (
+				AACBE85B1C323D8D00EE2AA4 /* Sources */,
+				AACBE85C1C323D8D00EE2AA4 /* Frameworks */,
+				AACBE85D1C323D8D00EE2AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AACBE8611C323D8D00EE2AA4 /* PBXTargetDependency */,
+			);
+			name = firstHomeWorkUITests;
+			productName = firstHomeWorkUITests;
+			productReference = AACBE85F1C323D8D00EE2AA4 /* firstHomeWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		AADC318A1C2DDC7F00B872A2 /* SuperCool */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AADC31B31C2DDC7F00B872A2 /* Build configuration list for PBXNativeTarget "SuperCool" */;
@@ -191,6 +336,17 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Christian;
 				TargetAttributes = {
+					AACBE8401C323D8D00EE2AA4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AACBE8531C323D8D00EE2AA4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AACBE8401C323D8D00EE2AA4;
+					};
+					AACBE85E1C323D8D00EE2AA4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AACBE8401C323D8D00EE2AA4;
+					};
 					AADC318A1C2DDC7F00B872A2 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -220,11 +376,38 @@
 				AADC318A1C2DDC7F00B872A2 /* SuperCool */,
 				AADC319E1C2DDC7F00B872A2 /* SuperCoolTests */,
 				AADC31A91C2DDC7F00B872A2 /* SuperCoolUITests */,
+				AACBE8401C323D8D00EE2AA4 /* firstHomeWork */,
+				AACBE8531C323D8D00EE2AA4 /* firstHomeWorkTests */,
+				AACBE85E1C323D8D00EE2AA4 /* firstHomeWorkUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AACBE83F1C323D8D00EE2AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBE84E1C323D8D00EE2AA4 /* LaunchScreen.storyboard in Resources */,
+				AACBE84B1C323D8D00EE2AA4 /* Assets.xcassets in Resources */,
+				AACBE8491C323D8D00EE2AA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE8521C323D8D00EE2AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE85D1C323D8D00EE2AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AADC31891C2DDC7F00B872A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,6 +435,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AACBE83D1C323D8D00EE2AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBE8461C323D8D00EE2AA4 /* ViewController.swift in Sources */,
+				AACBE8441C323D8D00EE2AA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE8501C323D8D00EE2AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBE8591C323D8D00EE2AA4 /* firstHomeWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE85B1C323D8D00EE2AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBE8641C323D8D00EE2AA4 /* firstHomeWorkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AADC31871C2DDC7F00B872A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +488,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AACBE8561C323D8D00EE2AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACBE8401C323D8D00EE2AA4 /* firstHomeWork */;
+			targetProxy = AACBE8551C323D8D00EE2AA4 /* PBXContainerItemProxy */;
+		};
+		AACBE8611C323D8D00EE2AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACBE8401C323D8D00EE2AA4 /* firstHomeWork */;
+			targetProxy = AACBE8601C323D8D00EE2AA4 /* PBXContainerItemProxy */;
+		};
 		AADC31A11C2DDC7F00B872A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AADC318A1C2DDC7F00B872A2 /* SuperCool */;
@@ -293,6 +511,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		AACBE8471C323D8D00EE2AA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AACBE8481C323D8D00EE2AA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AACBE84C1C323D8D00EE2AA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AACBE84D1C323D8D00EE2AA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		AADC31921C2DDC7F00B872A2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -312,6 +546,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AACBE8661C323D8D00EE2AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = firstHomeWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Christian.firstHomeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AACBE8671C323D8D00EE2AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = firstHomeWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Christian.firstHomeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AACBE8681C323D8D00EE2AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = firstHomeWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Christian.firstHomeWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstHomeWork.app/firstHomeWork";
+			};
+			name = Debug;
+		};
+		AACBE8691C323D8D00EE2AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = firstHomeWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Christian.firstHomeWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firstHomeWork.app/firstHomeWork";
+			};
+			name = Release;
+		};
+		AACBE86A1C323D8D00EE2AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = firstHomeWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Christian.firstHomeWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = firstHomeWork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AACBE86B1C323D8D00EE2AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = firstHomeWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Christian.firstHomeWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = firstHomeWork;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		AADC31B11C2DDC7F00B872A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -466,6 +770,30 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AACBE86C1C323D8D00EE2AA4 /* Build configuration list for PBXNativeTarget "firstHomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACBE8661C323D8D00EE2AA4 /* Debug */,
+				AACBE8671C323D8D00EE2AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AACBE86D1C323D8D00EE2AA4 /* Build configuration list for PBXNativeTarget "firstHomeWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACBE8681C323D8D00EE2AA4 /* Debug */,
+				AACBE8691C323D8D00EE2AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AACBE86E1C323D8D00EE2AA4 /* Build configuration list for PBXNativeTarget "firstHomeWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACBE86A1C323D8D00EE2AA4 /* Debug */,
+				AACBE86B1C323D8D00EE2AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		AADC31861C2DDC7F00B872A2 /* Build configuration list for PBXProject "SuperCool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -482,6 +810,7 @@
 				AADC31B51C2DDC7F00B872A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AADC31B61C2DDC7F00B872A2 /* Build configuration list for PBXNativeTarget "SuperCoolTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +819,7 @@
 				AADC31B81C2DDC7F00B872A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AADC31B91C2DDC7F00B872A2 /* Build configuration list for PBXNativeTarget "SuperCoolUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +828,7 @@
 				AADC31BB1C2DDC7F00B872A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

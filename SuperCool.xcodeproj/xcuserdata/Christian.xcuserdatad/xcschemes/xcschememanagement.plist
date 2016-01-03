@@ -9,9 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>firstHomeWork.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>AACBE8401C323D8D00EE2AA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AACBE8531C323D8D00EE2AA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AACBE85E1C323D8D00EE2AA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AADC318A1C2DDC7F00B872A2</key>
 		<dict>
 			<key>primary</key>
